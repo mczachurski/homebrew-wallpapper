@@ -11,7 +11,7 @@ class Wallpapper < Formula
   depends_on :macos => :mojave
 
   def install
-    swift "build", "--configuration", "release"
+    system 'swift', 'build', '--configuration', 'release'
     bin.install '.build/x86_64-apple-macosx10.10/release/wallpapper'
   end
 end
