@@ -3,7 +3,7 @@ require 'formula'
 class Wallpapper < Formula
   homepage 'https://github.com/mczachurski/wallpapper'
   url 'https://github.com/mczachurski/wallpapper/tarball/1.0.0'
-  sha256 '5197790cf6a50cce2a3f9d72a7b123edc3b56c8aa43696dedd7d5b4cb96fa461'
+  sha256 'a1fdcec46aff12ffb22e766f28a8c88ebfc1e254bcdf63484b3535f62c9b0cf6'
 
   head 'https://github.com/mczachurski/wallpapper.git'
 
@@ -11,7 +11,7 @@ class Wallpapper < Formula
   depends_on :macos => :mojave
 
   def install
-    xcodebuild "-configuration", "Release", "SYMROOT=build"
-    bin.install 'build/Release/wallpapper'
+    swift "build", "--configuration", "release"
+    bin.install '.build/x86_64-apple-macosx10.10/release/wallpapper'
   end
-end
+endd
