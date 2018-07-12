@@ -14,4 +14,4 @@ class Wallpapper < Formula
     swift "build", "--configuration", "release"
     bin.install '.build/x86_64-apple-macosx10.10/release/wallpapper'
   end
-endd
+end
