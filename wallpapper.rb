@@ -3,7 +3,7 @@ require 'formula'
 class Wallpapper < Formula
   homepage 'https://github.com/mczachurski/wallpapper'
   url 'https://github.com/mczachurski/wallpapper/tarball/1.0.0'
-  sha1 '267dd2f5e2be441a0321a4f41f48e55cc335165f'
+  sha256 'fb0032448d83087534be489669096632a43b00050f640f041160905ff1c5f170'
 
   head 'https://github.com/mczachurski/wallpapper.git'
 
