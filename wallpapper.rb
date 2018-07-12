@@ -7,10 +7,11 @@ class Wallpapper < Formula
 
   head 'https://github.com/mczachurski/wallpapper.git'
 
-  depends_on :xcode # For working xcodebuild.
+  depends_on :xcode => :build
+  depends_on :macos => :mojave
 
   def install
-    system 'xcodebuild'
+    xcodebuild "-configuration", "Release", "SYMROOT=build"
     bin.install 'build/Release/wallpapper'
   end
 end
