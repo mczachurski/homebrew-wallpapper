@@ -3,8 +3,8 @@ require 'formula'
 class Wallpapper < Formula
   homepage 'https://github.com/mczachurski/wallpapper'
   url 'https://github.com/mczachurski/wallpapper/tarball/1.1.0'
-  sha256 'a1fdcec46aff12ffb22e766f28a8c88ebfc1e254bcdf63484b3535f62c9b0cf6'
-2
+  sha256 '931cec74d4e5537d6a24c3fd1a6e1cc8ca045a05feba9e5b1a36f49440792370'
+
   head 'https://github.com/mczachurski/wallpapper.git'
 
   depends_on :xcode => :build
