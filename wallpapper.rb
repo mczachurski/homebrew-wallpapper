@@ -2,9 +2,9 @@ require 'formula'
 
 class Wallpapper < Formula
   homepage 'https://github.com/mczachurski/wallpapper'
-  url 'https://github.com/mczachurski/wallpapper/tarball/1.0.0'
+  url 'https://github.com/mczachurski/wallpapper/tarball/1.1.0'
   sha256 'a1fdcec46aff12ffb22e766f28a8c88ebfc1e254bcdf63484b3535f62c9b0cf6'
-
+2
   head 'https://github.com/mczachurski/wallpapper.git'
 
   depends_on :xcode => :build
