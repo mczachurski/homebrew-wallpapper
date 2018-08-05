@@ -2,7 +2,7 @@ require 'formula'
 
 class Wallpapper < Formula
   homepage 'https://github.com/mczachurski/wallpapper'
-  url 'https://github.com/mczachurski/wallpapper/archive/1.1.0.tar.gz'
+  url 'https://github.com/mczachurski/wallpapper/archive/1.2.0.tar.gz'
   sha256 'e7f09497dc91f5a9575d54b5f00a39b51a8f390442ccf8e7b2533c13f64ad76c'
 
   head 'https://github.com/mczachurski/wallpapper.git'
