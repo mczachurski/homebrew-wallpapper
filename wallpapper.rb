@@ -2,8 +2,8 @@ require 'formula'
 
 class Wallpapper < Formula
   homepage 'https://github.com/mczachurski/wallpapper'
-  url 'https://github.com/mczachurski/wallpapper/archive/1.5.1.tar.gz'
-  sha256 '5595295e01a4dd1c78f69afe79015df80f9e0e21596a2f680eb6c8fc8f71184f'
+  url 'https://github.com/mczachurski/wallpapper/archive/1.6.0.tar.gz'
+  sha256 '12aa5b514809a1e469a537bb6b69e236d6c68387320cbefb05c6aabf30eb0461'
 
   head 'https://github.com/mczachurski/wallpapper.git'
 
