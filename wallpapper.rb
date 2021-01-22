@@ -12,6 +12,6 @@ class Wallpapper < Formula
 
   def install
     system 'swift', 'build', '--disable-sandbox', '--configuration', 'release'
-    bin.install './.build/x86_64-apple-macosx/release/wallpapper'
+    bin.install './.build/release/wallpapper'
   end
 end
